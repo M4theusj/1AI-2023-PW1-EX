@@ -1,5 +1,5 @@
 # EXERCÍCIOS JS
-Repositório criado com o objetivo de realizar os exercícios propostos pelol professor Guilherme.
+Repositório criado com o objetivo de realizar os exercícios propostos pelo professor Guilherme.
 
 Criado por Matheus Jacob no dia 17-09-2023.
 
