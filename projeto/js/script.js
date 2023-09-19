@@ -78,13 +78,33 @@ function mudaConstante(){
     const nome = prompt('Digite seu nome:');
     console.log('Nome digitado:', nome);
   
-    const novoNome = prompt('Digite um novo nome:');
+    const novoNome = prompt('Digite um novo nome: ');
     console.log('Novo nome digitado:', novoNome);
   
     
     nome = novoNome; 
   }
 
+function manipulaArrays(){
+    var cores = [ "branco", "azul", "vermelho", "verde", "preto", "amarelo", "marrom", "violeta", "rosa", "ciano", "magenta", "cinza" ]
+    cores.push("laranja")
+    console.log(cores)
+    let crRm = cores.pop()
+    console.log('Elemento removido: ', crRm)
+    console.log('Array: ', cores)
+    let orAr = cores.sort()
+    console.log('Array organizado: ', orAr)
+    let rmAz = cores.splice(cores.indexOf("azul"), 1)
+    console.log('Array sem azul: ', cores)
+    console.log('Primeiro valor do array:', cores[0])
+    console.log('Último valor do array:', cores[cores.length - 1])
+    cores.unshift("fucsia")
+    console.log('Array com fucsia: ', cores)
+    let crSh = cores.shift();
+    console.log('Elemento removido pelo shift: ', crSh)
+    console.log('Array após shift: ', cores)
+
+}
 
 
 
