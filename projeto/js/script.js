@@ -24,12 +24,11 @@ function somaNumeros(){
     console.log(resultado)
 }
 
-function subtraiNumeros(n1, n2) {
-    return n1 - n2;
-}
 
-const resultado = subtraiNumeros(5, 3);
-console.log(resultado);
+
+function subtraiNumeros(n1, n2) {
+    console.log(n1 - n2);
+}
 
 
 function criaObjeto(){
