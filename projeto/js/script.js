@@ -26,8 +26,24 @@ function somaNumeros(){
 
 
 
-function subtraiNumeros(n1, n2) {
-    console.log(n1 - n2);
+function subtraiNumeros() {
+    let n1= Number(prompt("digite o primeiro numero:"))
+  let n2 = Number(prompt("digite o segundo numero:"))
+   subtracao(n1,n2)
+}
+
+function subtracao(n1, n2){
+
+ 
+  
+  alert("subtracao realizada")
+  
+
+  console.log(n1-n2)
+
+  
+
+
 }
 
 
